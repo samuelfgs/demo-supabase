@@ -1,0 +1,340 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+      "projectApiToken": "vvfeaEpObpmc4TTeVz85RSMKKqbHdnBxZ8Cfnphsd5tlt7GVngTOdm1MhOEy07aCq8vPz0P8X1vsBVeP2ZmuQ",
+      "projectName": "Copy of Supabase",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_supabase/plasmic_copy_of_supabase.module.css",
+      "components": [
+        {
+          "id": "D_09Wb5wA9",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Hrt-8c55kCA",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "72kuX7z4jE2",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "v-yXxSNs9o0",
+          "name": "Posts",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicPosts.tsx",
+          "importSpec": {
+            "modulePath": "Posts.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicPosts.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "dZQFlEuvgPR",
+          "name": "Post",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicPost.tsx",
+          "importSpec": {
+            "modulePath": "Post.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicPost.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pLxSxf-V2wL",
+          "name": "NavBar",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicNavBar.tsx",
+          "importSpec": {
+            "modulePath": "NavBar.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicNavBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uzKLlm8w4gA",
+          "name": "LoginPage",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicLoginPage.tsx",
+          "importSpec": {
+            "modulePath": "LoginPage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicLoginPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Abg9jpf0kADO",
+          "name": "LoginComponent",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicLoginComponent.tsx",
+          "importSpec": {
+            "modulePath": "LoginComponent.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicLoginComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "P9Q8vZKxVZl4",
+          "name": "PostUpdate",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicPostUpdate.tsx",
+          "importSpec": {
+            "modulePath": "PostUpdate.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicPostUpdate.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "VWLTdNIQLBao",
+          "name": "AddPost",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicAddPost.tsx",
+          "importSpec": {
+            "modulePath": "AddPost.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicAddPost.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "VKWOfitnL5VD",
+          "name": "Mountain",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicMountain.tsx",
+          "importSpec": {
+            "modulePath": "Mountain.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicMountain.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "quBP86QIw0hg",
+          "name": "SignupPage",
+          "type": "managed",
+          "projectId": "aGwaDyFceaTJ7MmVgLqAKM",
+          "renderModuleFilePath": "plasmic/copy_of_supabase/PlasmicSignupPage.tsx",
+          "importSpec": {
+            "modulePath": "SignupPage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_supabase/PlasmicSignupPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "aNRtnlYy42Id",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/copy_of_supabase/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "KiiEUAU0_PJ_",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/copy_of_supabase/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "ikNXI5MzGP8E",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_supabase/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "ZsbkirgRD0ll",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/copy_of_supabase/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "-NPp1PMkI3Mu",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/copy_of_supabase/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "6s1jELwioiIP",
+          "name": "PlusIcon",
+          "moduleFilePath": "plasmic/copy_of_supabase/icons/PlasmicIcon__Plus.tsx"
+        },
+        {
+          "id": "z0nK1hBoU9-T",
+          "name": "EditIcon",
+          "moduleFilePath": "plasmic/copy_of_supabase/icons/PlasmicIcon__Edit.tsx"
+        },
+        {
+          "id": "RfsqmqGRFWpt",
+          "name": "DeleteIcon",
+          "moduleFilePath": "plasmic/copy_of_supabase/icons/PlasmicIcon__Delete.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "p8mOmFlLn3Oz",
+          "name": "loading",
+          "filePath": "plasmic/copy_of_supabase/images/loading.gif"
+        },
+        {
+          "id": "KIRidvlNnaog",
+          "name": "loading2",
+          "filePath": "plasmic/copy_of_supabase/images/loading2.gif"
+        },
+        {
+          "id": "f4lrRIkPUO8a",
+          "name": "loading-icon.jpeg",
+          "filePath": "plasmic/copy_of_supabase/images/loadingIconjpeg.gif"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R9j1z7GOLHg",
+          "name": "FormTextInput",
+          "componentImportPath": "./components/CodeComponents/Form"
+        },
+        {
+          "id": "ZuzBoRqG7Nz",
+          "name": "FormContextComponent",
+          "componentImportPath": "./components/CodeComponents/Form"
+        },
+        {
+          "id": "xgGmBGYFNNC",
+          "name": "SupabaseQuery",
+          "componentImportPath": "./components/CodeComponents/DatabaseComponents"
+        },
+        {
+          "id": "X9PtRIJY4b9",
+          "name": "SupabaseUserSession",
+          "componentImportPath": "./components/CodeComponents/DatabaseComponents"
+        },
+        {
+          "id": "5DBJkMVl-SQ",
+          "name": "SupabaseUserLogOut",
+          "componentImportPath": "./components/CodeComponents/DatabaseComponents"
+        },
+        {
+          "id": "TCR7KmlqzR40",
+          "name": "SupabaseUserLogIn",
+          "componentImportPath": "./components/CodeComponents/DatabaseComponents"
+        },
+        {
+          "id": "4TsbaDRppPhb",
+          "name": "SupabaseMutation",
+          "componentImportPath": "./components/CodeComponents/DatabaseComponents"
+        },
+        {
+          "id": "lFC9CRSs6Y-w",
+          "name": "SupabaseTextField",
+          "componentImportPath": "./components/CodeComponents/DisplayCollections"
+        },
+        {
+          "id": "oT7etggpiceX",
+          "name": "SupabaseGridCollection",
+          "componentImportPath": "./components/CodeComponents/DisplayCollections"
+        },
+        {
+          "id": "AZq778uV6Dli",
+          "name": "SupabaseTableCollection",
+          "componentImportPath": "./components/CodeComponents/DisplayCollections"
+        },
+        {
+          "id": "WwsEYXP7mwRu",
+          "name": "SupabaseEditButton",
+          "componentImportPath": "./components/CodeComponents/UtilsComponents"
+        },
+        {
+          "id": "m-q4KZlXkHnO",
+          "name": "SupabaseImgField",
+          "componentImportPath": "./components/CodeComponents/DisplayCollections"
+        },
+        {
+          "id": "qhy5MYQZKe_S",
+          "name": "SupabaseDeleteButton",
+          "componentImportPath": "./components/CodeComponents/UtilsComponents"
+        },
+        {
+          "id": "1xO-DTXyIZ-x",
+          "name": "SupabaseModal",
+          "componentImportPath": "./components/CodeComponents/UtilsComponents"
+        },
+        {
+          "id": "1-3y7daFxmOI",
+          "name": "SupabaseUserSignUp",
+          "componentImportPath": "./components/CodeComponents/DatabaseComponents"
+        },
+        {
+          "id": "wGNj07LnQ0H5",
+          "name": "RedirectIf",
+          "componentImportPath": "./components/CodeComponents/LogicComponents"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "cliVersion": "0.1.170",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.170/dist/plasmic.schema.json"
+}
